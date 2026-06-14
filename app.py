@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "<h1>Hello From Azureeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee! </h1> <p> I deployed this myself as a Shadowwwwwwwwwwwwwwwwwwwwwwwww! </p>"
+    return "<h1>🎉 Hello from Azure! My container is running!</h1>"
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=80)
